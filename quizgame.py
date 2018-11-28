@@ -28,7 +28,7 @@ print ("What will be the output for x?\n r = lambda q: q * 2 \n s = lambda q: q 
 
 
 answer1 = "D"
-response1 = raw_input("Your answer is:  ")
+response1 = raw_input("Your answer is:  ").upper()
 
 if response1 != answer1:
     print("Sorry, that is incorrect!")

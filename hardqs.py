@@ -6,7 +6,7 @@ print ("What will be the output for x?\n \n r = lambda q: q * 2 \n s = lambda q:
 
 
 answer1 = "C"
-response1 = raw_input("Your answer is:  ")
+response1 = raw_input("Your answer is:  ").upper()
 
 if response1 != answer1:
     print("\n Sorry, that is incorrect! \n")

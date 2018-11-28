@@ -6,7 +6,7 @@ print ("What will be the output of the following code?\n \nprint type(type(int))
 
 
 answer1 = "B" 
-response1 = raw_input("Your answer is:  ")
+response1 = raw_input("Your answer is:  ").upper()
 
 if response1 != answer1:
     print("\n Sorry, that is incorrect!\n ")
