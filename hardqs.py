@@ -11,12 +11,12 @@ response1 = raw_input("Your answer is:  ").upper()
 if response1 != answer1:
     print("\n Sorry, that is incorrect! \n")
     print("Explanation : In the above program r and s are lambda functions or anonymous functions \n and q is the argument to both of the functions. \n In first step we have initialized x to 2. \n In second step we have passed x as argument to the lambda function r \n this will return x*2 which is stored in x. \n That is, x = 4 now. Similarly in third step we have passed x \n to lambda function s, So x = 4*3. i.e, x = 12 now. \n Again in the last step, x is multiplied by 2 by passing \n it to function r. Therefore, x = 24.\n")
-    cash = cash - 100
+    cash = cash - 500
 else:
     print("You got it! " + response1 + " is correct! \n")
     score = score + 1
 if response1 == "D":
-    cash = cash + 50
+    cash = cash + 500
 
 print("Your current score is " + str(score) + " out of 5 \n")
 print("Your cash balance is " + str(cash) + " dollars \n")
@@ -33,12 +33,12 @@ response1 = raw_input("Your answer is:  ")
 if response1 != answer1:
     print("Sorry, that is incorrect! \n")
     print("Explanation: There is no operator ++ in Python \n")
-    cash = cash - 100
+    cash = cash - 500
 else:
     print("You got it! " + response1 + " is correct!")
     score = score + 1
 if response1 == "C":
-    cash = cash + 100
+    cash = cash + 500
 
 print("Your current score is " + str(score) + " out of 5 \n " )
 print("Your cash balance is " + str(cash) + " dollars \n ")
@@ -55,12 +55,12 @@ response1 = raw_input("Your answer is:  ")
 if response1 != answer1:
     print("Sorry, that is incorrect! \n")
     print("Explanation: The function upper() does not modify a string in place, but it returns a new string which here isn't being stored anywhere. So we will get our orignal list as output \n")
-    cash = cash - 100
+    cash = cash - 500
 else:
     print("You got it! " + response1 + " is correct!")
     score = score + 1
 if response1 == "B":
-    cash = cash + 100
+    cash = cash + 500
 
 print("Your current score is " + str(score) + " out of 5 \n " )
 print("Your cash balance is " + str(cash) + " dollars \n ")
